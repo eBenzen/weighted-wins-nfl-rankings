@@ -1,0 +1,102 @@
+name: Update NFL Rankings
+
+on:
+  # Schedule for Friday, Monday, Tuesday at 2 AM ET (7 AM UTC during daylight saving, 6 AM UTC during standard time)
+  # Using 7 AM UTC as a compromise
+  schedule:
+    - cron: '0 7 * * 5'  # Friday 2 AM ET
+    - cron: '0 7 * * 1'  # Monday 2 AM ET
+    - cron: '0 7 * * 2'  # Tuesday 2 AM ET
+
+  # Allow manual workflow triggers
+  workflow_dispatch:
+
+jobs:
+  update-rankings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run rankings calculation
+        id: calculate
+        run: |
+          echo "Starting NFL rankings calculation..."
+          python scripts/calculate_rankings.py
+
+          # Check if new data files were created or modified
+          if [[ -n $(git status --porcelain data/) ]]; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "Data files have been updated"
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "No changes to data files"
+          fi
+
+      - name: Configure Git
+        if: steps.calculate.outputs.changes_detected == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push changes
+        if: steps.calculate.outputs.changes_detected == 'true'
+        run: |
+          git add data/*.json
+
+          # Get current week from latest file
+          LATEST_FILE=$(ls -t data/week_*.json | head -1)
+          WEEK=$(basename "$LATEST_FILE" .json | sed 's/week_//')
+
+          git commit -m "Update NFL rankings for Week $WEEK - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '🚨 Rankings Update Failed';
+            const body = `The automated rankings update workflow failed.
+
+            **Workflow Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            **Triggered:** ${{ github.event_name }}
+            **Time:** ${new Date().toISOString()}
+
+            Please investigate the error logs and fix the issue.`;
+
+            // Check if an issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: ['automated-update-failure']
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['automated-update-failure', 'bug']
+              });
+            }
