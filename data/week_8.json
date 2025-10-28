@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-27T07:04:53.829710+00:00",
+  "timestamp": "2025-10-28T07:01:36.714358+00:00",
   "week": 8,
   "season": 2025,
   "rankings": [
@@ -19,9 +19,9 @@
       "losses": 2,
       "ties": 0,
       "win_pct": 0.75,
-      "weighted_wins": 23.0,
+      "weighted_wins": 24.0,
       "weighted_losses": -8.0,
-      "total": 15.0
+      "total": 16.0
     },
     {
       "team": "TB",
@@ -89,9 +89,9 @@
       "losses": 3,
       "ties": 0,
       "win_pct": 0.571,
-      "weighted_wins": 16.0,
+      "weighted_wins": 17.0,
       "weighted_losses": -9.0,
-      "total": 7.0
+      "total": 8.0
     },
     {
       "team": "NE",
@@ -114,13 +114,23 @@
       "total": 7.0
     },
     {
+      "team": "KC",
+      "wins": 5,
+      "losses": 3,
+      "ties": 0,
+      "win_pct": 0.625,
+      "weighted_wins": 14.0,
+      "weighted_losses": -8.0,
+      "total": 6.0
+    },
+    {
       "team": "LAC",
       "wins": 5,
       "losses": 3,
       "ties": 0,
       "win_pct": 0.625,
-      "weighted_wins": 17.0,
-      "weighted_losses": -11.0,
+      "weighted_wins": 18.0,
+      "weighted_losses": -12.0,
       "total": 6.0
     },
     {
@@ -142,16 +152,6 @@
       "weighted_wins": 12.0,
       "weighted_losses": -8.0,
       "total": 4.0
-    },
-    {
-      "team": "KC",
-      "wins": 4,
-      "losses": 3,
-      "ties": 0,
-      "win_pct": 0.571,
-      "weighted_wins": 11.0,
-      "weighted_losses": -8.0,
-      "total": 3.0
     },
     {
       "team": "HOU",
@@ -194,16 +194,6 @@
       "total": -3.0
     },
     {
-      "team": "WAS",
-      "wins": 3,
-      "losses": 4,
-      "ties": 0,
-      "win_pct": 0.429,
-      "weighted_wins": 9.0,
-      "weighted_losses": -12.0,
-      "total": -3.0
-    },
-    {
       "team": "ATL",
       "wins": 3,
       "losses": 4,
@@ -234,6 +224,16 @@
       "total": -6.0
     },
     {
+      "team": "WAS",
+      "wins": 3,
+      "losses": 5,
+      "ties": 0,
+      "win_pct": 0.375,
+      "weighted_wins": 9.0,
+      "weighted_losses": -15.0,
+      "total": -6.0
+    },
+    {
       "team": "BAL",
       "wins": 2,
       "losses": 5,
@@ -250,8 +250,8 @@
       "ties": 0,
       "win_pct": 0.286,
       "weighted_wins": 7.0,
-      "weighted_losses": -14.0,
-      "total": -7.0
+      "weighted_losses": -15.0,
+      "total": -8.0
     },
     {
       "team": "ARI",
@@ -270,8 +270,8 @@
       "ties": 0,
       "win_pct": 0.25,
       "weighted_wins": 11.0,
-      "weighted_losses": -22.0,
-      "total": -11.0
+      "weighted_losses": -23.0,
+      "total": -12.0
     },
     {
       "team": "CLE",
