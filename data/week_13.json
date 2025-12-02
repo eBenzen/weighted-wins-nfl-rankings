@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-01T07:05:48.589407+00:00",
+  "timestamp": "2025-12-02T07:02:22.441893+00:00",
   "week": 13,
   "season": 2025,
   "rankings": [
@@ -24,23 +24,23 @@
       "total": 34.0
     },
     {
+      "team": "NE",
+      "wins": 11,
+      "losses": 2,
+      "ties": 0,
+      "win_pct": 0.846,
+      "weighted_wins": 46.0,
+      "weighted_losses": -16.0,
+      "total": 30.0
+    },
+    {
       "team": "PHI",
       "wins": 8,
       "losses": 4,
       "ties": 0,
       "win_pct": 0.667,
       "weighted_wins": 49.0,
-      "weighted_losses": -20.0,
-      "total": 29.0
-    },
-    {
-      "team": "NE",
-      "wins": 10,
-      "losses": 2,
-      "ties": 0,
-      "win_pct": 0.833,
-      "weighted_wins": 44.0,
-      "weighted_losses": -16.0,
+      "weighted_losses": -21.0,
       "total": 28.0
     },
     {
@@ -150,8 +150,8 @@
       "ties": 0,
       "win_pct": 0.667,
       "weighted_wins": 36.0,
-      "weighted_losses": -27.0,
-      "total": 9.0
+      "weighted_losses": -28.0,
+      "total": 8.0
     },
     {
       "team": "PIT",
@@ -159,9 +159,9 @@
       "losses": 6,
       "ties": 0,
       "win_pct": 0.5,
-      "weighted_wins": 32.0,
+      "weighted_wins": 33.0,
       "weighted_losses": -25.0,
-      "total": 7.0
+      "total": 8.0
     },
     {
       "team": "CAR",
@@ -276,12 +276,22 @@
     {
       "team": "NYG",
       "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "win_pct": 0.154,
+      "weighted_wins": 16.0,
+      "weighted_losses": -53.0,
+      "total": -37.0
+    },
+    {
+      "team": "LV",
+      "wins": 2,
       "losses": 10,
       "ties": 0,
       "win_pct": 0.167,
-      "weighted_wins": 16.0,
-      "weighted_losses": -51.0,
-      "total": -35.0
+      "weighted_wins": 12.0,
+      "weighted_losses": -50.0,
+      "total": -38.0
     },
     {
       "team": "CLE",
@@ -291,16 +301,6 @@
       "win_pct": 0.25,
       "weighted_wins": 15.0,
       "weighted_losses": -54.0,
-      "total": -39.0
-    },
-    {
-      "team": "LV",
-      "wins": 2,
-      "losses": 10,
-      "ties": 0,
-      "win_pct": 0.167,
-      "weighted_wins": 11.0,
-      "weighted_losses": -50.0,
       "total": -39.0
     },
     {
