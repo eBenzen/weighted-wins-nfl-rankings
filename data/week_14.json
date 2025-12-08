@@ -1,27 +1,57 @@
 {
-  "timestamp": "2025-12-05T07:03:49.432437+00:00",
+  "timestamp": "2025-12-08T07:06:35.616078+00:00",
   "week": 14,
   "season": 2025,
   "rankings": [
     {
       "team": "LA",
-      "wins": 9,
+      "wins": 10,
       "losses": 3,
       "ties": 0,
-      "win_pct": 0.75,
-      "weighted_wins": 57.0,
+      "win_pct": 0.769,
+      "weighted_wins": 65.0,
       "weighted_losses": -14.0,
-      "total": 43.0
+      "total": 51.0
     },
     {
       "team": "DEN",
-      "wins": 10,
+      "wins": 11,
       "losses": 2,
       "ties": 0,
-      "win_pct": 0.833,
-      "weighted_wins": 42.0,
-      "weighted_losses": -8.0,
+      "win_pct": 0.846,
+      "weighted_wins": 46.0,
+      "weighted_losses": -9.0,
+      "total": 37.0
+    },
+    {
+      "team": "SEA",
+      "wins": 10,
+      "losses": 3,
+      "ties": 0,
+      "win_pct": 0.769,
+      "weighted_wins": 47.0,
+      "weighted_losses": -13.0,
       "total": 34.0
+    },
+    {
+      "team": "HOU",
+      "wins": 8,
+      "losses": 5,
+      "ties": 0,
+      "win_pct": 0.615,
+      "weighted_wins": 51.0,
+      "weighted_losses": -18.0,
+      "total": 33.0
+    },
+    {
+      "team": "JAX",
+      "wins": 9,
+      "losses": 4,
+      "ties": 0,
+      "win_pct": 0.692,
+      "weighted_wins": 53.0,
+      "weighted_losses": -20.0,
+      "total": 33.0
     },
     {
       "team": "NE",
@@ -29,9 +59,9 @@
       "losses": 2,
       "ties": 0,
       "win_pct": 0.846,
-      "weighted_wins": 46.0,
-      "weighted_losses": -16.0,
-      "total": 30.0
+      "weighted_wins": 50.0,
+      "weighted_losses": -17.0,
+      "total": 33.0
     },
     {
       "team": "PHI",
@@ -39,19 +69,19 @@
       "losses": 4,
       "ties": 0,
       "win_pct": 0.667,
-      "weighted_wins": 50.0,
-      "weighted_losses": -22.0,
-      "total": 28.0
+      "weighted_wins": 53.0,
+      "weighted_losses": -23.0,
+      "total": 30.0
     },
     {
-      "team": "SEA",
+      "team": "GB",
       "wins": 9,
       "losses": 3,
-      "ties": 0,
-      "win_pct": 0.75,
-      "weighted_wins": 37.0,
-      "weighted_losses": -12.0,
-      "total": 25.0
+      "ties": 1,
+      "win_pct": 0.731,
+      "weighted_wins": 49.0,
+      "weighted_losses": -20.0,
+      "total": 29.0
     },
     {
       "team": "SF",
@@ -59,69 +89,29 @@
       "losses": 4,
       "ties": 0,
       "win_pct": 0.692,
-      "weighted_wins": 42.0,
-      "weighted_losses": -17.0,
-      "total": 25.0
-    },
-    {
-      "team": "HOU",
-      "wins": 7,
-      "losses": 5,
-      "ties": 0,
-      "win_pct": 0.583,
-      "weighted_wins": 41.0,
-      "weighted_losses": -17.0,
-      "total": 24.0
-    },
-    {
-      "team": "JAX",
-      "wins": 8,
-      "losses": 4,
-      "ties": 0,
-      "win_pct": 0.667,
-      "weighted_wins": 43.0,
-      "weighted_losses": -19.0,
-      "total": 24.0
+      "weighted_wins": 45.0,
+      "weighted_losses": -18.0,
+      "total": 27.0
     },
     {
       "team": "BUF",
-      "wins": 8,
+      "wins": 9,
       "losses": 4,
       "ties": 0,
-      "win_pct": 0.667,
-      "weighted_wins": 42.0,
-      "weighted_losses": -22.0,
-      "total": 20.0
-    },
-    {
-      "team": "GB",
-      "wins": 8,
-      "losses": 3,
-      "ties": 1,
-      "win_pct": 0.708,
-      "weighted_wins": 38.0,
-      "weighted_losses": -19.0,
-      "total": 19.0
-    },
-    {
-      "team": "TB",
-      "wins": 7,
-      "losses": 5,
-      "ties": 0,
-      "win_pct": 0.583,
-      "weighted_wins": 37.0,
-      "weighted_losses": -18.0,
-      "total": 19.0
+      "win_pct": 0.692,
+      "weighted_wins": 49.0,
+      "weighted_losses": -23.0,
+      "total": 26.0
     },
     {
       "team": "CHI",
       "wins": 9,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "win_pct": 0.75,
-      "weighted_wins": 37.0,
-      "weighted_losses": -19.0,
-      "total": 18.0
+      "win_pct": 0.692,
+      "weighted_wins": 40.0,
+      "weighted_losses": -23.0,
+      "total": 17.0
     },
     {
       "team": "DET",
@@ -130,18 +120,38 @@
       "ties": 0,
       "win_pct": 0.615,
       "weighted_wins": 40.0,
-      "weighted_losses": -24.0,
-      "total": 16.0
+      "weighted_losses": -25.0,
+      "total": 15.0
     },
     {
       "team": "IND",
       "wins": 8,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "win_pct": 0.667,
-      "weighted_wins": 34.0,
-      "weighted_losses": -20.0,
-      "total": 14.0
+      "win_pct": 0.615,
+      "weighted_wins": 38.0,
+      "weighted_losses": -25.0,
+      "total": 13.0
+    },
+    {
+      "team": "PIT",
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "win_pct": 0.538,
+      "weighted_wins": 40.0,
+      "weighted_losses": -27.0,
+      "total": 13.0
+    },
+    {
+      "team": "TB",
+      "wins": 7,
+      "losses": 6,
+      "ties": 0,
+      "win_pct": 0.538,
+      "weighted_wins": 40.0,
+      "weighted_losses": -28.0,
+      "total": 12.0
     },
     {
       "team": "LAC",
@@ -149,19 +159,9 @@
       "losses": 4,
       "ties": 0,
       "win_pct": 0.667,
-      "weighted_wins": 36.0,
-      "weighted_losses": -28.0,
-      "total": 8.0
-    },
-    {
-      "team": "PIT",
-      "wins": 6,
-      "losses": 6,
-      "ties": 0,
-      "win_pct": 0.5,
-      "weighted_wins": 33.0,
-      "weighted_losses": -25.0,
-      "total": 8.0
+      "weighted_wins": 41.0,
+      "weighted_losses": -30.0,
+      "total": 11.0
     },
     {
       "team": "CAR",
@@ -169,29 +169,19 @@
       "losses": 6,
       "ties": 0,
       "win_pct": 0.538,
-      "weighted_wins": 39.0,
-      "weighted_losses": -33.0,
-      "total": 6.0
+      "weighted_wins": 42.0,
+      "weighted_losses": -34.0,
+      "total": 8.0
     },
     {
       "team": "KC",
       "wins": 6,
-      "losses": 6,
+      "losses": 7,
       "ties": 0,
-      "win_pct": 0.5,
+      "win_pct": 0.462,
       "weighted_wins": 29.0,
-      "weighted_losses": -24.0,
-      "total": 5.0
-    },
-    {
-      "team": "BAL",
-      "wins": 6,
-      "losses": 6,
-      "ties": 0,
-      "win_pct": 0.5,
-      "weighted_wins": 27.0,
-      "weighted_losses": -31.0,
-      "total": -4.0
+      "weighted_losses": -29.0,
+      "total": 0.0
     },
     {
       "team": "DAL",
@@ -200,78 +190,78 @@
       "ties": 1,
       "win_pct": 0.5,
       "weighted_wins": 24.0,
-      "weighted_losses": -29.0,
-      "total": -5.0
+      "weighted_losses": -31.0,
+      "total": -7.0
+    },
+    {
+      "team": "BAL",
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "win_pct": 0.462,
+      "weighted_wins": 29.0,
+      "weighted_losses": -39.0,
+      "total": -10.0
+    },
+    {
+      "team": "MIA",
+      "wins": 6,
+      "losses": 7,
+      "ties": 0,
+      "win_pct": 0.462,
+      "weighted_wins": 25.0,
+      "weighted_losses": -38.0,
+      "total": -13.0
     },
     {
       "team": "MIN",
-      "wins": 4,
+      "wins": 5,
       "losses": 8,
       "ties": 0,
-      "win_pct": 0.333,
-      "weighted_wins": 24.0,
-      "weighted_losses": -37.0,
+      "win_pct": 0.385,
+      "weighted_wins": 27.0,
+      "weighted_losses": -40.0,
       "total": -13.0
     },
     {
       "team": "CIN",
       "wins": 4,
-      "losses": 8,
-      "ties": 0,
-      "win_pct": 0.333,
-      "weighted_wins": 23.0,
-      "weighted_losses": -38.0,
-      "total": -15.0
-    },
-    {
-      "team": "MIA",
-      "wins": 5,
-      "losses": 7,
-      "ties": 0,
-      "win_pct": 0.417,
-      "weighted_wins": 20.0,
-      "weighted_losses": -35.0,
-      "total": -15.0
-    },
-    {
-      "team": "ARI",
-      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "win_pct": 0.25,
-      "weighted_wins": 15.0,
-      "weighted_losses": -41.0,
-      "total": -26.0
+      "win_pct": 0.308,
+      "weighted_wins": 25.0,
+      "weighted_losses": -44.0,
+      "total": -19.0
     },
     {
       "team": "ATL",
       "wins": 4,
-      "losses": 8,
-      "ties": 0,
-      "win_pct": 0.333,
-      "weighted_wins": 17.0,
-      "weighted_losses": -43.0,
-      "total": -26.0
-    },
-    {
-      "team": "WAS",
-      "wins": 3,
       "losses": 9,
       "ties": 0,
-      "win_pct": 0.25,
-      "weighted_wins": 12.0,
-      "weighted_losses": -43.0,
-      "total": -31.0
+      "win_pct": 0.308,
+      "weighted_wins": 20.0,
+      "weighted_losses": -49.0,
+      "total": -29.0
     },
     {
-      "team": "NYJ",
+      "team": "ARI",
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "win_pct": 0.25,
-      "weighted_wins": 11.0,
-      "weighted_losses": -44.0,
-      "total": -33.0
+      "win_pct": 0.231,
+      "weighted_wins": 16.0,
+      "weighted_losses": -46.0,
+      "total": -30.0
+    },
+    {
+      "team": "NO",
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "win_pct": 0.231,
+      "weighted_wins": 16.0,
+      "weighted_losses": -52.0,
+      "total": -36.0
     },
     {
       "team": "NYG",
@@ -280,48 +270,58 @@
       "ties": 0,
       "win_pct": 0.154,
       "weighted_wins": 16.0,
-      "weighted_losses": -54.0,
-      "total": -38.0
+      "weighted_losses": -57.0,
+      "total": -41.0
     },
     {
-      "team": "CLE",
+      "team": "NYJ",
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "win_pct": 0.25,
-      "weighted_wins": 15.0,
+      "win_pct": 0.231,
+      "weighted_wins": 11.0,
+      "weighted_losses": -53.0,
+      "total": -42.0
+    },
+    {
+      "team": "WAS",
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "win_pct": 0.231,
+      "weighted_wins": 12.0,
       "weighted_losses": -54.0,
-      "total": -39.0
+      "total": -42.0
+    },
+    {
+      "team": "TEN",
+      "wins": 2,
+      "losses": 11,
+      "ties": 0,
+      "win_pct": 0.154,
+      "weighted_wins": 6.0,
+      "weighted_losses": -49.0,
+      "total": -43.0
     },
     {
       "team": "LV",
       "wins": 2,
-      "losses": 10,
-      "ties": 0,
-      "win_pct": 0.167,
-      "weighted_wins": 12.0,
-      "weighted_losses": -51.0,
-      "total": -39.0
-    },
-    {
-      "team": "NO",
-      "wins": 2,
-      "losses": 10,
-      "ties": 0,
-      "win_pct": 0.167,
-      "weighted_wins": 9.0,
-      "weighted_losses": -48.0,
-      "total": -39.0
-    },
-    {
-      "team": "TEN",
-      "wins": 1,
       "losses": 11,
       "ties": 0,
-      "win_pct": 0.083,
-      "weighted_wins": 3.0,
-      "weighted_losses": -46.0,
-      "total": -43.0
+      "win_pct": 0.154,
+      "weighted_wins": 13.0,
+      "weighted_losses": -58.0,
+      "total": -45.0
+    },
+    {
+      "team": "CLE",
+      "wins": 3,
+      "losses": 10,
+      "ties": 0,
+      "win_pct": 0.231,
+      "weighted_wins": 17.0,
+      "weighted_losses": -69.0,
+      "total": -52.0
     }
   ]
 }
